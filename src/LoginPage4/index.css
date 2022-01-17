@@ -1,0 +1,96 @@
+.login-page-4{
+    background-color: #02004F;
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.login-page-4 .left-polygon{
+    margin-top: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+}
+
+.login-page-4 .right-polygon{
+    margin-top: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scaleX(-1);
+    pointer-events: none;
+}
+
+.login-page-4 input{
+    border: 1px solid rgba(255, 255, 255, 0.377);
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 3px;
+    background-color: #03004f60;
+    border-color: 1px solid rgba(255, 255, 255, 0.205);
+    color: rgba(255, 255, 255, 0.329);
+    padding-left: 20px;
+}
+.login-page-4 input:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.login-page-4 button{
+
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 0 20px;
+    background-color: #140e96;
+    box-shadow: none;
+    border: none;
+}
+
+.login-page-4 .text-part{
+    display: flex;
+    width: 50%;
+}
+
+.login-page-4 h1{
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+.login-page-4 a{
+    color: rgba(255, 255, 255, 0.479);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width : 1000px){
+    .login-page-4 .left-polygon{
+        margin-top: 8px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        
+    }
+    
+    .login-page-4 .right-polygon{
+        margin-top: 8px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        transform: scaleX(-1);
+    }
+
+    .login-page-4 .text-part{
+        display: flex;
+        width: 80%;
+    }
+}

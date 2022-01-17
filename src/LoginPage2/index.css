@@ -1,0 +1,98 @@
+.login-page-2 {
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.login-page-2 .row {
+  height: 100%;
+}
+
+.login-page-2 .text-part {
+  width: 100%;
+  padding: 50px;
+  width: 75%;
+}
+.login-page-2 h1 {
+  font-size: 50px;
+  color: transparent;
+  color: #162022;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+.login-page-2 input {
+  margin-top: 15px;
+  height: 50px;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  border-radius: 5px;
+}
+.login-page-2 input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.login-page-2 button {
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+  background-color: #162022;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-page-2 .left-divider {
+  height: 1px;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.login-page-2 .right-divider {
+  height: 1px;
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.login-page-2 a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.753);
+  font-weight: 700;
+}
+.login-page-2 .image-part {
+  position: relative;
+  background-color: #101a1c;
+  border-top-left-radius: 200px;
+  border-bottom-left-radius: 200px;
+  height: 100vh;
+  padding-left: 100px;
+}
+.login-page-2 .bird-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  border-radius: 200px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .login-page-2 {
+    height: auto !important;
+  }
+  .login-page-2 .image-part {
+    position: relative;
+    background-color: #101a1c;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 100vh;
+    padding-left: 100px;
+  }
+  .login-page-2 .text-part{
+    width: 100% !important;
+    padding: 10px !important;
+  }
+}

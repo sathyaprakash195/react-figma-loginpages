@@ -1,0 +1,86 @@
+.login-page-3 {
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+.login-page-3 .parent-first-part {
+  background-color: #1aebb7;
+  height: 100%;
+}
+
+.login-page-3 .child-row {
+  padding: 50px;
+}
+
+.login-page-3 .child-row .child-first-part {
+  height: 100%;
+}
+
+.login-page-3 .child-row {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  box-shadow: 0 0 5px rgb(117, 117, 117);
+}
+
+.login-page-3 .text-part {
+ 
+  padding: 50px;
+  width: 75%;
+}
+.login-page-3 h1 {
+  font-size: 50px;
+  color: transparent;
+  color: #0000008c;
+  font-weight: bolder;
+  letter-spacing: 6px;
+}
+.login-page-3 input {
+  margin-top: 15px;
+  height: 50px;
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.247);
+  padding-left: 20px;
+}
+.login-page-3 input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.24);
+  outline: none;
+}
+.login-page-3 button {
+  height: 50px;
+  margin-top: 15px;
+  width: 50%;
+  background-color: #1aebb7;
+  color: white;
+  border: 1px solid black;
+}
+
+
+.login-page-3 a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.521);
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1000px) {
+  .login-page-3 {
+    min-height: 100vh;
+    max-height: auto !important;
+    overflow-y: scroll;
+  }
+
+  .login-page-3 .text-part {
+    margin-top: 100px;
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .login-page-3 .child-row {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,112 @@
+.login-page-6{
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.login-page-6 .text-part{
+    background-color: rgba(26, 25, 25, 0.5);
+    margin: 30px;
+    padding: 20px;
+}
+.login-page-6 h1{
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.616);
+    font-weight: bold;
+}
+.login-page-6 input{
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.637);
+    padding-left: 25px;
+    border-radius: 5px;
+}
+.login-page-6 input:focus{
+    outline: none;
+}
+
+.login-page-6 button{
+    height: 45px;
+    background-color: rgb(73, 70, 70);
+    border: none;
+    box-shadow: none;
+    margin-top: 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.login-page-6 .left-divider {
+    height: 1px;
+    width: 100%;
+  
+    background-color: rgba(216, 216, 216, 0.7);
+  }
+  
+  .login-page-6 .right-divider {
+    height: 1px;
+    width: 100%;
+  
+    background-color: rgba(201, 198, 198, 0.7);
+  }
+  .login-page-6 p{
+      color: rgba(255, 255, 255, 0.712);
+  }
+
+  .login-page-6 a{
+      color: rgba(255, 255, 255, 0.623);
+      text-decoration: none;
+  }
+
+
+  .login-page-6 .bottom-rectangle{
+      position: absolute;
+      bottom: -100px;
+      left: -80px;
+  }
+
+  .login-page-6 .top-rectangle{
+    position: absolute;
+    top: -100px;
+    right: -70px;
+}
+
+
+.login-page-6 .top-triangle{
+    height: 0;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #27B902;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    transform: rotate(-50deg);
+}
+
+.login-page-6 .bottom-triangle{
+    height: 0;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #27B902;
+    position: absolute;
+    bottom: 100px;
+    right: 150px;
+    transform: rotate(50deg);
+}
+
+@media only screen and (max-width:1000px){
+    .login-page-6 .bottom-rectangle{
+       z-index: 1;
+    }
+  
+    .login-page-6 .top-rectangle{
+      z-index: 1;
+  }
+  .login-page-6 .row .col-md-4{
+      z-index: 2;
+  }
+}
